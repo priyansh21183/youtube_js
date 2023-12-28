@@ -1,4 +1,4 @@
-"use strict"
+"use strict"   //for use of newer version of javascript although it is using default newer version.
 let a=undefined
 let b= Boolean(a)
 let c= String(b)
