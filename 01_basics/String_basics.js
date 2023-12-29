@@ -20,6 +20,7 @@ if (c< d) {
 console.log(a.toUpperCase())
 const f='C'
 const new1="                4+5\n"
+const o="Omega"
 console.log(eval(new1)) // eval is only valid on primitive type string not on non primitive string
 console.log(new1)
 console.log(new1.trim());
@@ -27,8 +28,8 @@ console.log(typeof(new1.valueOf));
 console.log(typeof new1)
 console.log(typeof f);
 console.log(new1.indexOf(4))
-console.log(new1.slice(-1,17));
-console.log(-1,17);
+console.log(o.slice(-1,5));
+console.log(o.substring(-2,4));
 
 let a1={
     age:22,
