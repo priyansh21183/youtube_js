@@ -28,7 +28,7 @@ console.log(typeof(new1.valueOf));
 console.log(typeof new1)
 console.log(typeof f);
 console.log(new1.indexOf(4))
-console.log(o.slice(-1,5));
+console.log(o.slice(-5,5));
 console.log(o.substring(-2,4));
 
 let a1={
