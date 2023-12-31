@@ -16,6 +16,8 @@ console.log(myTimeStamp);
 console.log(myCreateDate.getTime());
 console.log(Math.floor(Date.now()/1000))// in milli seconds
 
-myDate.toLocaleDateString('default',{weekday:"long"})
+console.log(myDate.toLocaleDateString('default',{
+    region: "en-IN"
+}));
 
 console.log(myDate);
